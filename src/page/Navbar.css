@@ -1,0 +1,18 @@
+.menu-ul>li{
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+.li-hv:hover{
+    color: #00b4cf;
+}
+.is-active{
+    background: #435466;
+    color: #00b4cf;
+}
+.menu-icon{
+    margin-right: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}

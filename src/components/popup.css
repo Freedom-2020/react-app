@@ -1,0 +1,97 @@
+.close-btn{
+    position: absolute;
+    color: #00b4cf;
+    cursor: pointer;
+    font-size: 18px;
+    right: 15px;
+    top: 5px;
+}
+.triangle{
+    display: block;
+    width: 16px;
+    height: 12px;
+    border: 1px solid #00b4cf;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    margin: 0 auto;
+    transform: rotate(63deg) skewx(38deg);
+    position: absolute;
+    top: 31px;
+    left: 4px;
+    z-index: 10001;
+    background: #fff;
+}
+
+.popup-box{
+    width: 490px;
+    height: 112px;
+    padding: 20px 10px 16px 10px;
+    border: 1px solid #00b4cf;
+    position: absolute;
+    top: 38px;
+    left: -14px;
+    z-index: 10000;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+}
+.triangle-top{
+    border: 1px solid #00b4cf;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    top: -30px;
+}
+.popup-box-top{
+    top: -172px;
+}
+.plu-ico{
+    font-size: 18px;
+    color: #fff;
+    background: #00b4cf;
+    padding: 2px 6px;
+}
+.plu-ico:hover{
+    background: #01869a;
+}
+.ipt-resource{
+    width: 463px;
+    margin-top: 8px;
+    padding: 8px 10px;
+    box-shadow: inset -1px 1px 1px rgb(0 0 0 / 10%);
+    border: 2px solid #bbb;
+    outline: 0;
+    color: #00b4cf;
+}
+.ipt-resource::placeholder{
+    font-size: 12px;
+}
+.error-msg{
+    color: rgb(245, 74, 74);
+    font-size: 13px;
+}
+.btn-box{
+    margin-top: 8px;
+}
+.add-btn{
+    background: #00b4cf;
+    border:1px solid #00b4cf;
+    padding: 5px 10px;
+}
+.add-btn:hover{
+    background: #01869a;
+    border:1px solid #00b4cf
+}
+.disable-btn{
+    background: #00b4cf !important;
+    border:1px solid #00b4cf !important;
+    cursor: not-allowed;
+}
+.cancel-btn{
+    background: #435466;
+    border:1px solid #435466;
+    margin-left: 20px;
+    padding: 5px 20px;
+}
+.cancel-btn:hover{
+    background: #2d4054;
+    border:1px solid #2d4054
+}
